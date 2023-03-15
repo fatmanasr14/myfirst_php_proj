@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+   
     @foreach ($students as $student)
-    {{ $student['name'] }}
-    <br>
-    {{ $student['id'] }}
+    <a href="/students/{{$student['id']}}">
+     {{ $student['id'] }} -{{ $student['name'] }}
+        </a>
+    
     <br>
     @endforeach
 

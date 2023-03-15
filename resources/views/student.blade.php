@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {{$id}} 
+    <br>
+    {{$name}}
+    <br>
+     {{$city}} 
+     <br>
+     {{$country}}
+     <br>
+     {{$email}}
+    <br>
+    {{$phone_n}}
 </body>
 </html>
